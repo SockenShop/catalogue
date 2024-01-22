@@ -12,7 +12,7 @@ agent any
     stages {
         stage('Build') {
             steps { //create a loop somehow??
-            sh 'docker build -t $DOCKER_ID/$DOCKER_IMAGE_CARTS:$DOCKER_TAG .'
+            sh 'docker build -t $DOCKER_ID/$DOCKER_IMAGE_CATALOGUE:$DOCKER_TAG  .'
                    }
         }
         stage('Run') {
