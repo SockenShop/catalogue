@@ -1,20 +1,14 @@
 # catalogue service
 
+### This repository contains Kubernetes manifests for deploying a catalogue application using a Kubernetes Deployment and Service.
+
+# Catalogue Deployment and Service
+
 ###This repository contains Kubernetes manifests for deploying a catalogue application using a Kubernetes Deployment and Service.
 
 ## Kubernetes Deployment
 
-###Certainly! Here is a basic Readme.md file for the provided Kubernetes manifests:
-
-markdown
-Copy code
-# Catalogue Deployment and Service
-
-This repository contains Kubernetes manifests for deploying a catalogue application using a Kubernetes Deployment and Service.
-
-## Kubernetes Deployment
-
-The Kubernetes Deployment defines the catalogue application deployment with the following specifications:
+###The Kubernetes Deployment defines the catalogue application deployment with the following specifications:
 
 ```yaml
 apiVersion: apps/v1
